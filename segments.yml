@@ -1,0 +1,13 @@
+
+segments:
+  - id: SG001
+    name: High Intent Users
+    conditions:
+      - event: "pricing_page_view"
+      - event: "demo_request"
+
+  - id: SG002
+    name: Churn Risk
+    conditions:
+      - inactivity_days > 14
+      - plan: "basic"
