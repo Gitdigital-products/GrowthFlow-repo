@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  growthflow:
+    build: .
+    ports: ["4002:4002"]
+    env_file: .env
+    restart: unless-stopped
