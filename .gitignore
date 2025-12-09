@@ -19,6 +19,51 @@ lib64/
 parts/
 sdist/
 var/
+
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+env/
+venv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Env
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Coverage
+coverage/
+*.lcov
+
+# Docker
+docker-data/
+docker-compose.override.yml
+
+# IDE
+.vscode/
+.idea/
+*.swp
 wheels/
 share/python-wheels/
 *.egg-info/
