@@ -1,0 +1,7 @@
+
+{
+  "dataSources": ["postgres", "stripe", "mixpanel"],
+  "syncInterval": "15m",
+  "output": "./reports",
+  "autoTagging": true
+}
